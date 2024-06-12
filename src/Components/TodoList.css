@@ -1,5 +1,5 @@
-/* General styling for the App */
-.App {
+/* Styling for the TodoList component */
+.TodoList {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   margin-top: 50px;
@@ -9,7 +9,7 @@
 }
 
 /* Styling for the task input and buttons */
-input[type="text"] {
+.TodoList input[type="text"] {
   padding: 10px;
   margin: 10px 0;
   width: 300px;
@@ -17,7 +17,7 @@ input[type="text"] {
   border-radius: 5px;
 }
 
-button {
+.TodoList button {
   padding: 10px 15px;
   margin-left: 5px;
   border: none;
@@ -28,23 +28,23 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+.TodoList button:hover {
   background-color: #0056b3;
 }
 
 /* Styling for the filter input and sorting checkbox */
-input[type="text"]:focus {
+.TodoList input[type="text"]:focus {
   outline: none;
   border-color: #0056b3;
 }
 
-label {
+.TodoList label {
   margin-left: 10px;
   font-size: 16px;
 }
 
 /* Styling for the task list */
-ul {
+.TodoList ul {
   list-style-type: none;
   padding: 0;
   max-width: 500px;
@@ -54,7 +54,7 @@ ul {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-li {
+.TodoList li {
   padding: 15px;
   margin: 5px 0;
   background-color: #ffffff;
@@ -64,29 +64,29 @@ li {
   align-items: center;
 }
 
-li:last-child {
+.TodoList li:last-child {
   border-bottom: none;
 }
 
-li span {
+.TodoList li span {
   cursor: pointer;
   flex-grow: 1;
   text-align: left;
   padding-left: 10px;
 }
 
-li span:hover {
+.TodoList li span:hover {
   text-decoration: underline;
 }
 
 /* Styling for the task checkbox */
-input[type="checkbox"] {
+.TodoList input[type="checkbox"] {
   transform: scale(1.2);
   margin-right: 10px;
 }
 
 /* Styling for the remove button */
-li button {
+.TodoList li button {
   background-color: #ff4d4d;
   border: none;
   color: white;
@@ -96,6 +96,6 @@ li button {
   transition: background-color 0.3s ease;
 }
 
-li button:hover {
+.TodoList li button:hover {
   background-color: #d40d0d;
 }
